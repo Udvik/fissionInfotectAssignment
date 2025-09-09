@@ -1,6 +1,6 @@
 .hero-section {
           height: 100vh;
-          background: linear-gradient(135deg, #1e1e1e, #121212);
+          background: #121212;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -8,6 +8,7 @@
           text-align: center;
           font-family: 'Poppins', sans-serif;
           padding: 0 2rem;
+          ;
         }
         .container {
           max-width: 900px;
@@ -38,7 +39,7 @@
         }
         .primary-btn {
           background: #f4c430;
-          color: #121212;
+          color: #000000;
           border: 2px solid #f4c430;
         }
         .primary-btn:hover {
@@ -52,7 +53,7 @@
         }
         .secondary-btn:hover {
           background: #f4c430;
-          color: #121212;
+          color: #000000;
         }
         @media (max-width: 768px) {
           h1 {
@@ -70,3 +71,15 @@
             text-align: center;
           }
         }
+
+    .hero-image{
+      float: right;
+    }
+    .hero-section-container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      background-color: #121212;
+    }
