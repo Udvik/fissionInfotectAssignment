@@ -1,9 +1,15 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import '../styles/HeroSection.css'
+import lion from '../assets/lion.png'
 
 export default function HeroSection() {
   return (
+    <div className='hero-section-container'>
+  
+<div className='hero-image'>
+        <img src={lion} alt='lion' />
+      </div>
     <section className="hero-section">
       <div className="container">
         <motion.h1
@@ -35,6 +41,9 @@ export default function HeroSection() {
           </a>
         </motion.div>
       </div>
+      
     </section>
+    
+      </div>
   )
 }
