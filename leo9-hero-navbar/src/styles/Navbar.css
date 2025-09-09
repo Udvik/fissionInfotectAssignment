@@ -23,16 +23,20 @@
         .nav-links {
           list-style: none;
           display: flex;
-          gap: 2rem;
+          gap: 3rem;
         }
         .nav-links li a {
           text-decoration: none;
           color: #eee;
+          padding: 5px;
           font-weight: 600;
           transition: color 0.3s;
         }
         .nav-links li a:hover {
-          color: #f4c430;
+          background-color: #f4c430;
+          border-radius: 10px;
+          padding: 5px;
+          color: #000000;
         }
         .menu-toggle {
           display: none;
